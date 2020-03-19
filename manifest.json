@@ -5,7 +5,19 @@
     "description": "Do you stream? Do you worry about doxxing yourself? With this extension we'll check to see if you're live, and if so push a browser notification to you, and you can manage a list of potential websites that may reveal your personal info!",
     "browser_action": {},
     "author": "Chris Jones",
-    "permissions": [ 
-        "ebay.co.uk"
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.ebay.co.uk/*"
+            ],
+            "js": [
+                "blur.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "*://*.ebay.co.uk/*"
     ]
 }
