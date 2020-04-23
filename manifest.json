@@ -9,11 +9,6 @@
         "activeTab",
         "*://*.ebay.co.uk/*"
     ],
-    // "background": {
-    //     "scripts": [
-    //         "blur.js"
-    //     ]
-    // }
     "content_scripts": [
         {
           "matches": ["*://*.ebay.co.uk/*"],
