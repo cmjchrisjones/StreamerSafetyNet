@@ -1,5 +1,5 @@
 # Welcome to StreamerSafetyNet 
-![](https://img.shields.io/static/v1?label=STATUS:&message=BETA&color=blue&style=for-the-badge)
+![](https://img.shields.io/static/v1?label=STATUS&message=BETA&color=blue&style=for-the-badge)
 ![Twitch Status](https://img.shields.io/twitch/status/theoriginaljerk?style=for-the-badge)
 
 - [Welcome to StreamerSafetyNet](#welcome-to-streamersafetynet)
