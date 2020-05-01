@@ -4,6 +4,7 @@
 
 - [Welcome to StreamerSafetyNet](#welcome-to-streamersafetynet)
   - [What is it](#what-is-it)
+  - [Whats it do](#whats-it-do)
   - [RoadMap](#roadmap)
   - [Installation](#installation)
   - [Browser Support](#browser-support)
@@ -15,6 +16,13 @@ A project designed to help prevent streamers from accidentally [doxxing](https:/
 This was inspired by [Clarkio's AZ Mask](https://github.com/clarkio/azure-mask) project, but rather than limiting to Azure, making it useful for a whole myriad of websites that a streamer could potentially bring up on stream which might leak Personal Identifiable Information (PII).
 
 For the most part, I'm developing this mostly on live on [Twitch.tv]('https://twitch.tv/theoriginaljerk'), why not head over and follow my channel to see when I go live! Alternatively, when I am live the badge at the top will update!
+
+## Whats it do
+
+So, for sites like eBay and Amazon, they show your username and postcode/zip code on various pages if you're signed in. This will blur that information out, like so
+
+![ebay](./.doc/images/ebay.png)
+![Amazon](./.doc/images/amazon.png)
 
 ## RoadMap
 
