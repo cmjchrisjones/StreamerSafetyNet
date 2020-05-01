@@ -1,18 +1,28 @@
 {
-    "manifest_version": 2,
-    "version": "1.0",
-    "name": "StreamerSafetyNet",
-    "description": "Do you stream? Do you worry about doxxing yourself? With this extension we'll check to see if you're live, and if so push a browser notification to you, and you can manage a list of potential websites that may reveal your personal info!",
-    "browser_action": {},
-    "author": "Chris Jones",
-    "permissions": [
-        "activeTab",
-        "*://*.ebay.co.uk/*"
-    ],
-    "content_scripts": [
-        {
-          "matches": ["*://*.ebay.co.uk/*"],
-          "js": ["blur.js"]
-        }
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "StreamerSafetyNet",
+  "description": "Do you stream? Do you worry about doxxing yourself? With this extension we'll check to see if you're live, and if so push a browser notification to you, and you can manage a list of potential websites that may reveal your personal info!",
+  "browser_action": {},
+  "author": "Chris Jones",
+  "permissions": [
+    "activeTab",
+    "*://*.ebay.com/*",
+    "*://*.ebay.co.uk/*",
+    "*://*.amazon.com/*",
+    "*://*.amazon.co.uk/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.ebay.com/*",
+        "*://*.ebay.co.uk/*",
+        "*://*.amazon.com/*",
+        "*://*.amazon.co.uk/*"
+      ],
+      "js": [
+        "blur.js"
       ]
+    }
+  ]
 }
