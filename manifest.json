@@ -1,16 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "0.0.1",
   "name": "StreamerSafetyNet",
   "description": "Do you stream? Do you worry about doxxing yourself? With this extension we'll check to see if you're live, and if so push a browser notification to you, and you can manage a list of potential websites that may reveal your personal info!",
-  "browser_action": {},
   "author": "Chris Jones",
   "permissions": [
-    "activeTab",
-    "*://*.ebay.com/*",
-    "*://*.ebay.co.uk/*",
-    "*://*.amazon.com/*",
-    "*://*.amazon.co.uk/*"
+    "activeTab"
   ],
   "content_scripts": [
     {
@@ -24,5 +19,13 @@
         "blur.js"
       ]
     }
+  ],
+  "action": {},
+  "content_security_policy": {},
+  "host_permissions": [
+    "*://*.ebay.com/*",
+    "*://*.ebay.co.uk/*",
+    "*://*.amazon.com/*",
+    "*://*.amazon.co.uk/*"
   ]
 }
